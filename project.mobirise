@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-08-06_1711",
-    "currentPage": "FM_Unit_1.html",
+    "currentPage": "FM_unit_1.1_2.1.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -154,7 +154,7 @@
         "file": "@PROJECT_PATH@/fonts/FFF_Tusj/font.ttf"
       }
     ],
-    "uniqCompNum": 664,
+    "uniqCompNum": 686,
     "versionPublish": "5.1.4",
     "screenshot": "screenshot.png",
     "imageResize": true,
@@ -367,7 +367,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "contact",
-        "order": 77
+        "order": 81
       },
       "components": [
         {
@@ -746,7 +746,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "error",
-        "order": 75
+        "order": 79
       },
       "components": [
         {
@@ -1253,7 +1253,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Disclaimer",
-        "order": 78
+        "order": 82
       },
       "components": [
         {
@@ -1896,7 +1896,7 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/papercut-bg-min-1-2000x1984.png\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#303293\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    FULL SCREEN INTRO\n                </h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"><b>Facility Management</b><br>Choose Your Unit</h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Click any text to edit or style it. Select text to insert a link. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add themes.\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"FM_unit_1_index.html\" data-app-placeholder=\"Type Text\">Unit - 1</a> <a class=\"btn btn-md btn-white\" href=\"FM_Unit_1.html\" data-app-placeholder=\"Type Text\">Unit - 1.1</a> <a class=\"btn btn-md btn-info\" href=\"FM_unit_2_index.html\" data-app-placeholder=\"Type Text\">Unit - 2</a> <a class=\"btn btn-md btn-primary\" href=\"FM_unit_3_index.html\" data-app-placeholder=\"Type Text\">Unit - 3</a> <a class=\"btn btn-md btn-success\" href=\"FM_Unit_4.html\" data-app-placeholder=\"Type Text\">Unit - 4</a>\n                    <a class=\"btn btn-md btn-danger\" href=\"FM_Unit_5.html\" data-app-placeholder=\"Type Text\">Unit -5</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/papercut-bg-min-1-2000x1984.png\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#303293\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    FULL SCREEN INTRO\n                </h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"><b>Facility Management</b><br>Choose Your Unit</h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Click any text to edit or style it. Select text to insert a link. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add themes.\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"FM_unit_1_index.html\" data-app-placeholder=\"Type Text\">Unit - 1</a> <a class=\"btn btn-md btn-white\" href=\"FM_unit_1.1_index.html\" data-app-placeholder=\"Type Text\">Unit - 1.1</a> <a class=\"btn btn-md btn-info\" href=\"FM_unit_2_index.html\" data-app-placeholder=\"Type Text\">Unit - 2</a> <a class=\"btn btn-md btn-primary\" href=\"FM_unit_3_index.html\" data-app-placeholder=\"Type Text\">Unit - 3</a> <a class=\"btn btn-md btn-success\" href=\"FM_Unit_4.html\" data-app-placeholder=\"Type Text\">Unit - 4</a>\n                    <a class=\"btn btn-md btn-danger\" href=\"FM_Unit_5.html\" data-app-placeholder=\"Type Text\">Unit -5</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "s7gJ3UnCuX",
           "_anchor": "header2-12",
           "_protectedParams": [],
@@ -1910,7 +1910,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "HS_unit_land",
-        "order": 55
+        "order": 59
       },
       "components": [
         {
@@ -2288,7 +2288,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Assign",
-        "order": 61
+        "order": 65
       },
       "components": [
         {
@@ -2490,7 +2490,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Links",
-        "order": 62
+        "order": 66
       },
       "components": [
         {
@@ -2652,7 +2652,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "HK_Sylls",
-        "order": 69
+        "order": 73
       },
       "components": [
         {
@@ -2866,7 +2866,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Fo_Sylls",
-        "order": 70
+        "order": 74
       },
       "components": [
         {
@@ -3080,7 +3080,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "FM_Sylls",
-        "order": 72
+        "order": 76
       },
       "components": [
         {
@@ -3294,7 +3294,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "HS_Sylls",
-        "order": 73
+        "order": 77
       },
       "components": [
         {
@@ -3508,7 +3508,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Syll_land",
-        "order": 64
+        "order": 68
       },
       "components": [
         {
@@ -3670,7 +3670,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Syll_sub_land_5",
-        "order": 67
+        "order": 71
       },
       "components": [
         {
@@ -3832,7 +3832,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Syll_sub_land_3",
-        "order": 66
+        "order": 70
       },
       "components": [
         {
@@ -3994,7 +3994,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Syll_sub_land_1",
-        "order": 65
+        "order": 69
       },
       "components": [
         {
@@ -4156,7 +4156,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "AC_Sylls",
-        "order": 68
+        "order": 72
       },
       "components": [
         {
@@ -6424,7 +6424,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "FM_Unit_2",
-        "order": 45
+        "order": 49
       },
       "components": [
         {
@@ -6706,7 +6706,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "FM_Unit_3",
-        "order": 50
+        "order": 54
       },
       "components": [
         {
@@ -6921,7 +6921,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "FM_Unit_4",
-        "order": 53
+        "order": 57
       },
       "components": [
         {
@@ -7127,7 +7127,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "FM_Unit_5",
-        "order": 54
+        "order": 58
       },
       "components": [
         {
@@ -7333,7 +7333,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "HS_Unit_1",
-        "order": 56
+        "order": 60
       },
       "components": [
         {
@@ -7537,7 +7537,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "HS_Unit_2",
-        "order": 57
+        "order": 61
       },
       "components": [
         {
@@ -7743,7 +7743,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "HS_Unit_3",
-        "order": 58
+        "order": 62
       },
       "components": [
         {
@@ -7949,7 +7949,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "HS_Unit_4",
-        "order": 59
+        "order": 63
       },
       "components": [
         {
@@ -8155,7 +8155,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "HS_Unit_5",
-        "order": 60
+        "order": 64
       },
       "components": [
         {
@@ -8774,7 +8774,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "ejournal",
-        "order": 63
+        "order": 67
       },
       "components": [
         {
@@ -9022,7 +9022,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "error2",
-        "order": 76
+        "order": 80
       },
       "components": [
         {
@@ -9202,7 +9202,7 @@
       "settings": {
         "meta_descr": "",
         "title": "more_land",
-        "order": 74
+        "order": 78
       },
       "components": [
         {
@@ -10058,7 +10058,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "P.Policy",
-        "order": 79
+        "order": 83
       },
       "components": [
         {
@@ -11193,7 +11193,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "DM_Sylls",
-        "order": 71
+        "order": 75
       },
       "components": [
         {
@@ -12212,7 +12212,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "FM_unit_3_index",
-        "order": 49
+        "order": 53
       },
       "components": [
         {
@@ -12401,7 +12401,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "FM_Unit_3.1",
-        "order": 51
+        "order": 55
       },
       "components": [
         {
@@ -12616,7 +12616,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "FM_Unit_3.2",
-        "order": 52
+        "order": 56
       },
       "components": [
         {
@@ -12831,7 +12831,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "FM_unit_2_index",
-        "order": 44
+        "order": 48
       },
       "components": [
         {
@@ -13020,7 +13020,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "FM_unit_2.1",
-        "order": 46
+        "order": 50
       },
       "components": [
         {
@@ -13302,7 +13302,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "FM_unit_2.2",
-        "order": 47
+        "order": 51
       },
       "components": [
         {
@@ -13517,7 +13517,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "FM_unit_2.3",
-        "order": 48
+        "order": 52
       },
       "components": [
         {
@@ -13921,7 +13921,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "FM_unit_1.2",
-        "order": 39
+        "order": 38
       },
       "components": [
         {
@@ -14106,7 +14106,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "FM_unit_1.3",
-        "order": 41
+        "order": 40
       },
       "components": [
         {
@@ -14660,7 +14660,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "FM_unit_1.4",
-        "order": 42
+        "order": 41
       },
       "components": [
         {
@@ -14912,7 +14912,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "FM_unit_1.5",
-        "order": 43
+        "order": 42
       },
       "components": [
         {
@@ -15097,7 +15097,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "FM_unit_1.2_index",
-        "order": 38
+        "order": 37
       },
       "components": [
         {
@@ -15290,7 +15290,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "FM_unit_1.2.1",
-        "order": 40
+        "order": 39
       },
       "components": [
         {
@@ -15511,6 +15511,1098 @@
           "_once": false,
           "_params": {},
           "_anchor": "image2-ia"
+        }
+      ]
+    },
+    "FM_unit_1.1_index.html": {
+      "settings": {
+        "meta_descr": "Site Generator Description",
+        "title": "FM_unit_1.1_index",
+        "order": 43
+      },
+      "components": [
+        {
+          "_name": "design-block",
+          "_styles": {
+            "p": {
+              "color": "#ecf0f1",
+              "line-height": "28px",
+              "font-size": "15px",
+              "padding-top": "50px"
+            },
+            "DIV": {
+              "color": "#ffffff"
+            },
+            "H10": {
+              "color": "#767676"
+            },
+            ".hidden": {
+              "display": "none"
+            },
+            ".sidebar": {
+              "z-index": "1001",
+              "background-color": "@bgcolormenu",
+              "opacity": "@Opacitybarmenu",
+              "position": "fixed",
+              "overflow-x": "auto",
+              "transition": "width 0.2s ease"
+            },
+            ".sidebar nav": {
+              "height": "100%"
+            },
+            ".sidebar .sidebar__nav": {
+              "display": "flex",
+              "height": "100%",
+              "list-style": "none",
+              "margin-top": "(@paddingTopmenu * 1px)",
+              "margin-right": "0px",
+              "margin-bottom": "0px",
+              "margin-left": "0px",
+              "padding": "0"
+            },
+            ".sidebar .sidebar__nav .sidebar__nav__link": {
+              "align-items": "center",
+              "color": "@bgcolormenu2",
+              "display": "flex",
+              "padding-left": "20px",
+              "text-decoration": "none",
+              "transition": "color 0.2s ease, background-color 0.2s ease"
+            },
+            ".sidebar .sidebar__nav .sidebar__nav__link:hover": {
+              "background-color": "@bgcolormenu1",
+              "color": "@bgcolormenu3"
+            },
+            ".sidebar .sidebar__nav .sidebar__nav__text": {
+              "display": "none",
+              "margin-left": "10px",
+              "margin-right": "auto",
+              "white-space": "nowrap"
+            },
+            ".sidebar .sidebar__nav i": {
+              "align-items": "center",
+              "display": "flex",
+              "justify-content": "center"
+            },
+            "@media (max-width: 572px)": {
+              ".sidebar": {
+                "bottom": "0",
+                "width": "100%"
+              },
+              ".sidebar .sidebar__nav": {
+                "justify-content": "space-around"
+              },
+              ".sidebar .sidebar__nav .sidebar__nav__link": {
+                "height": "100%",
+                "padding": "0.75em"
+              },
+              ".sidebar .sidebar__nav i": {
+                "font-size": "2rem"
+              }
+            },
+            "@media (min-width: 572px)": {
+              ".sidebar": {
+                "height": "100vh",
+                "left": "0",
+                "width": "var(--sidebar-width)"
+              },
+              ".sidebar:hover": {
+                "width": "(@widthsize * 1rem)",
+                "opacity": "@OpacitybarmenuHover"
+              },
+              ".sidebar .sidebar__nav": {
+                "flex-direction": "column"
+              },
+              "& when (@lastchild) and (@paddingTopmenu = 0)": {
+                ".sidebar .sidebar__nav li:last-child": {
+                  "margin-top": "auto"
+                }
+              },
+              ".sidebar .sidebar__nav .sidebar__nav__link": {
+                "padding": "1em"
+              },
+              ".sidebar:hover .sidebar__nav .sidebar__nav__text": {
+                "display": "inline"
+              },
+              ".sidebar .sidebar__nav i": {
+                "font-size": "2.5rem"
+              }
+            },
+            "@media (max-height: 434px)": {
+              ".sidebar": {
+                "overflow-y": "scroll"
+              }
+            },
+            ":root": {
+              "--sidebar-width": "4.5em"
+            },
+            ".menu i.large.icon, .menu i.large.basic.icon": {
+              "vertical-align": "baseline"
+            }
+          },
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"_customHTML\">\n \n  \n    <mbr-parameters>\n<hr><header>Menu Configuration</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTopmenu\" min=\"0\" max=\"200\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Width  Hover\" name=\"widthsize\" min=\"14\" max=\"50\" step=\"1\" value=\"14\">\n      <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n      <input type=\"checkbox\" title=\"Brand Name\" name=\"showName\">\n         <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"2\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n         <input type=\"range\" title=\"Icon Size\" inline name=\"iconSize\" min=\"30\" max=\"60\" step=\"1\" value=\"30\">      \n      <input type=\"range\" inline title=\"Items Count\" name=\"iconsCount\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">  \n        <input type=\"color\" title=\"Bar Color\" name=\"bgcolormenu\" value=\"#140735\">\n             <input type=\"range\" title=\"Opacity\" inline name=\"Opacitybarmenu\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\"> \n                   <input type=\"range\" title=\"Opacity Hover\" inline name=\"OpacitybarmenuHover\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\">  \n        <input type=\"color\" title=\"Hover Color\" name=\"bgcolormenu1\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Icon Color\" name=\"bgcolormenu2\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Icon Hover Color\" name=\"bgcolormenu3\" value=\"#223577\">\n        <input type=\"range\" inline title=\"Items Count\" name=\"iconsCount\" min=\"1\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Icon at Bottom\" name=\"lastchild\" condition=\"paddingTopmenu==0\" checked>\n\n\n    </mbr-parameters> \n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<aside class=\"sidebar\">\n\t\t\t<nav>\n\t\t\t\t<ul class=\"sidebar__nav\">\n                         \n         \n \t\t\t\t\t<li mbr-if=\"showLogo\">\n\t\t\t\t\t\t<a href=\"http://www.google.be\" class=\"sidebar__nav__link\">\n\t\t\t\t         <span class=\"sidebar__nav__text\"> <img src=\"https://www.unsitepourtous.be/mobi/yourlogo.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title></span>\n                          </a>\n\t\t\t\t\t</li>\n                   \t<li mbr-if=\"showName\">\n\t\t\t\t\t\t<a href=\"http://www.google.be\" class=\"sidebar__nav__link\">\n                          <span class=\"sidebar__nav__text\" mbr-text>YOUR BRAND</span>\n                          </a>\n\t\t\t\t\t</li>\n                  \t<li>\n\t\t\t\t\t\t<a href=\"1_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-user fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>1st Year</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 1\">\n\t\t\t\t\t\t<a href=\"2_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-user-friends fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>2nd Year</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 2\">\n\t\t\t\t\t\t<a href=\"3_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-users fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>3rd Year</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t<li mbr-if=\"iconsCount > 3\">\n\t\t\t\t\t\t<a href=\"Assign.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-clipboard-list fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Assignments</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 4\">\n\t\t\t\t\t\t<a href=\"Links.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-passport fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Links</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t<li mbr-if=\"iconsCount > 5\">\n\t\t\t\t\t\t<a href=\"more_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-ellipsis-h fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>More</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t\t\t\t\t<li mbr-if=\"iconsCount > 6\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-question\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 7</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t\t\t\t\t<li mbr-if=\"iconsCount > 7\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-github\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 8</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 8\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-setting3\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 9</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t\t\t\t\t<li mbr-if=\"iconsCount > 9\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-rocket\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 10</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\n\t\t\t\t</ul>\n\t\t\t</nav>\n\t\t</aside>\n\n <div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <h10> <br><br><br><br><br><br>Simply Left Menu<br><br>\n        Click the \"gear\" icon to change the layout of the Simply Left Menu bar. This text will be removed on preview/publish.<br><br><br><br><br><br></h10>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sgu4Sc4BvE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "design-block-ig"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            "H2": {
+              "color": "#f9f295"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2c244f\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -1\n</b><div><b>WATER - WASTE-TRANSPORT SYSTEM &amp; ENERGY MANAGEMENT\n</b></div></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sgu4SdhL3A",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-ih"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "P": {
+              "color": "#767676"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "center",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "header16",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#2c244f\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    FULL WIDTH INTRO\n                </h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Hardness of Water\n</b><br>\n<br>Water is termed as hard when it contains more minerals than ordinary water, especially the minerals – calcium and magnesium.\n<br>\n<br><b>Types of Hardness in water\n</b><br>* Temporary or Carbonate hardness: it is due to the presence of bicarbonates of calcium and magnesium dissolved in water. Simple boiling removes this hardness.\n<br>* Permanent or non-carbonic hardness: it is due to the presence of chlorides and sulphates of both calcium and magnesium. Simple boiling cannot remove his hardness. Use of chemicals and ion exchange methods are used to remove the permanent hardness.\n<br>\n<br><b>Effects of Hard Water\n</b><br>\n<br>It produces less lather with soap, resulting in more soap consumption.\n<br>It produces soap cum, which produces a dirty feeling during and after bath and wash.\n<br>It causes scale formation inside the water boilers and boiling utensils and thus results in corrosion and reduces the heat transfer efficiency.\n<br>It causes turbidity during boiling of water.\n<br>It affects the taste and structure of cooked food.\n<br>Too much intake of hard water affects the digestive process in human beings. It also leads to other heath issues.\n<br>It dis colors fabric.\n<br><br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"FM_unit_1.1_1.html\" data-app-placeholder=\"Type Text\">Electrical Systems</a> <a class=\"btn btn-md btn-primary\" href=\"FM_unit_1.1_2.html\" data-app-placeholder=\"Type Text\">Transportation System</a> <a class=\"btn btn-md btn-success\" href=\"FM_unit_1.1_3.html\" data-app-placeholder=\"Type Text\">Energy Conservation</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sgu4SdCjC2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header16-ii"
+        }
+      ]
+    },
+    "FM_unit_1.1_1.html": {
+      "settings": {
+        "meta_descr": "Site Generator Description",
+        "title": "FM_unit_1.1_1",
+        "order": 44
+      },
+      "components": [
+        {
+          "_name": "design-block",
+          "_styles": {
+            "p": {
+              "color": "#ecf0f1",
+              "line-height": "28px",
+              "font-size": "15px",
+              "padding-top": "50px"
+            },
+            "DIV": {
+              "color": "#ffffff"
+            },
+            "H10": {
+              "color": "#767676"
+            },
+            ".hidden": {
+              "display": "none"
+            },
+            ".sidebar": {
+              "z-index": "1001",
+              "background-color": "@bgcolormenu",
+              "opacity": "@Opacitybarmenu",
+              "position": "fixed",
+              "overflow-x": "auto",
+              "transition": "width 0.2s ease"
+            },
+            ".sidebar nav": {
+              "height": "100%"
+            },
+            ".sidebar .sidebar__nav": {
+              "display": "flex",
+              "height": "100%",
+              "list-style": "none",
+              "margin-top": "(@paddingTopmenu * 1px)",
+              "margin-right": "0px",
+              "margin-bottom": "0px",
+              "margin-left": "0px",
+              "padding": "0"
+            },
+            ".sidebar .sidebar__nav .sidebar__nav__link": {
+              "align-items": "center",
+              "color": "@bgcolormenu2",
+              "display": "flex",
+              "padding-left": "20px",
+              "text-decoration": "none",
+              "transition": "color 0.2s ease, background-color 0.2s ease"
+            },
+            ".sidebar .sidebar__nav .sidebar__nav__link:hover": {
+              "background-color": "@bgcolormenu1",
+              "color": "@bgcolormenu3"
+            },
+            ".sidebar .sidebar__nav .sidebar__nav__text": {
+              "display": "none",
+              "margin-left": "10px",
+              "margin-right": "auto",
+              "white-space": "nowrap"
+            },
+            ".sidebar .sidebar__nav i": {
+              "align-items": "center",
+              "display": "flex",
+              "justify-content": "center"
+            },
+            "@media (max-width: 572px)": {
+              ".sidebar": {
+                "bottom": "0",
+                "width": "100%"
+              },
+              ".sidebar .sidebar__nav": {
+                "justify-content": "space-around"
+              },
+              ".sidebar .sidebar__nav .sidebar__nav__link": {
+                "height": "100%",
+                "padding": "0.75em"
+              },
+              ".sidebar .sidebar__nav i": {
+                "font-size": "2rem"
+              }
+            },
+            "@media (min-width: 572px)": {
+              ".sidebar": {
+                "height": "100vh",
+                "left": "0",
+                "width": "var(--sidebar-width)"
+              },
+              ".sidebar:hover": {
+                "width": "(@widthsize * 1rem)",
+                "opacity": "@OpacitybarmenuHover"
+              },
+              ".sidebar .sidebar__nav": {
+                "flex-direction": "column"
+              },
+              "& when (@lastchild) and (@paddingTopmenu = 0)": {
+                ".sidebar .sidebar__nav li:last-child": {
+                  "margin-top": "auto"
+                }
+              },
+              ".sidebar .sidebar__nav .sidebar__nav__link": {
+                "padding": "1em"
+              },
+              ".sidebar:hover .sidebar__nav .sidebar__nav__text": {
+                "display": "inline"
+              },
+              ".sidebar .sidebar__nav i": {
+                "font-size": "2.5rem"
+              }
+            },
+            "@media (max-height: 434px)": {
+              ".sidebar": {
+                "overflow-y": "scroll"
+              }
+            },
+            ":root": {
+              "--sidebar-width": "4.5em"
+            },
+            ".menu i.large.icon, .menu i.large.basic.icon": {
+              "vertical-align": "baseline"
+            }
+          },
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"_customHTML\">\n \n  \n    <mbr-parameters>\n<hr><header>Menu Configuration</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTopmenu\" min=\"0\" max=\"200\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Width  Hover\" name=\"widthsize\" min=\"14\" max=\"50\" step=\"1\" value=\"14\">\n      <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n      <input type=\"checkbox\" title=\"Brand Name\" name=\"showName\">\n         <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"2\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n         <input type=\"range\" title=\"Icon Size\" inline name=\"iconSize\" min=\"30\" max=\"60\" step=\"1\" value=\"30\">      \n      <input type=\"range\" inline title=\"Items Count\" name=\"iconsCount\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">  \n        <input type=\"color\" title=\"Bar Color\" name=\"bgcolormenu\" value=\"#140735\">\n             <input type=\"range\" title=\"Opacity\" inline name=\"Opacitybarmenu\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\"> \n                   <input type=\"range\" title=\"Opacity Hover\" inline name=\"OpacitybarmenuHover\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\">  \n        <input type=\"color\" title=\"Hover Color\" name=\"bgcolormenu1\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Icon Color\" name=\"bgcolormenu2\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Icon Hover Color\" name=\"bgcolormenu3\" value=\"#223577\">\n        <input type=\"range\" inline title=\"Items Count\" name=\"iconsCount\" min=\"1\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Icon at Bottom\" name=\"lastchild\" condition=\"paddingTopmenu==0\" checked>\n\n\n    </mbr-parameters> \n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<aside class=\"sidebar\">\n\t\t\t<nav>\n\t\t\t\t<ul class=\"sidebar__nav\">\n                         \n         \n \t\t\t\t\t<li mbr-if=\"showLogo\">\n\t\t\t\t\t\t<a href=\"http://www.google.be\" class=\"sidebar__nav__link\">\n\t\t\t\t         <span class=\"sidebar__nav__text\"> <img src=\"https://www.unsitepourtous.be/mobi/yourlogo.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title></span>\n                          </a>\n\t\t\t\t\t</li>\n                   \t<li mbr-if=\"showName\">\n\t\t\t\t\t\t<a href=\"http://www.google.be\" class=\"sidebar__nav__link\">\n                          <span class=\"sidebar__nav__text\" mbr-text>YOUR BRAND</span>\n                          </a>\n\t\t\t\t\t</li>\n                  \t<li>\n\t\t\t\t\t\t<a href=\"1_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-user fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>1st Year</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 1\">\n\t\t\t\t\t\t<a href=\"2_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-user-friends fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>2nd Year</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 2\">\n\t\t\t\t\t\t<a href=\"3_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-users fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>3rd Year</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t<li mbr-if=\"iconsCount > 3\">\n\t\t\t\t\t\t<a href=\"Assign.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-clipboard-list fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Assignments</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 4\">\n\t\t\t\t\t\t<a href=\"Links.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-passport fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Links</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t<li mbr-if=\"iconsCount > 5\">\n\t\t\t\t\t\t<a href=\"more_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-ellipsis-h fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>More</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t\t\t\t\t<li mbr-if=\"iconsCount > 6\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-question\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 7</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t\t\t\t\t<li mbr-if=\"iconsCount > 7\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-github\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 8</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 8\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-setting3\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 9</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t\t\t\t\t<li mbr-if=\"iconsCount > 9\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-rocket\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 10</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\n\t\t\t\t</ul>\n\t\t\t</nav>\n\t\t</aside>\n\n <div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <h10> <br><br><br><br><br><br>Simply Left Menu<br><br>\n        Click the \"gear\" icon to change the layout of the Simply Left Menu bar. This text will be removed on preview/publish.<br><br><br><br><br><br></h10>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sgu5QqNdN4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "design-block-ij"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            "H2": {
+              "color": "#f9f295"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2c244f\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -1\n</b><div><b>WATER - WASTE-TRANSPORT SYSTEM &amp; ENERGY MANAGEMENT\n</b></div></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sgu5QsbUzG",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-ik"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2c244f\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><div><b>Electrical Terms\n</b></div><div><br></div><div>The four most basic physical quantities in electricity are:\n</div><div>\n</div><div>&nbsp;•\tVoltage (V)\n</div><div>&nbsp;•\tCurrent (I)\n</div><div>&nbsp;•\tResistance (R)\n</div><div>&nbsp;•\tPower (P)\n</div><div>\n</div><div>Each of these quantities are measured using different units:\t\n</div><div>\n</div><div>•\tVoltage is measured in volts (V)\n</div><div>•\tCurrent is measured in amps (A)\n</div><div>•\tResistance is measured in ohms (Ω)\n</div><div>•\tPower is measured in watts (W)\n</div><div><br></div><div><b>What is a volt?\n</b></div><div>A \"volt\" is a unit of electric potential, also known as electromotive force, and represents \"the potential difference between two points of a conducting wire carrying a constant current. Voltage\" (V) is the potential for energy to move and is analogous to water pressure.\n</div><div><br></div><div><b>What is a amp?\n</b></div><div>An \"amp\", short for ampere, is a unit of electrical current which is defines in terms of other base units by measuring the electromagnetic force between electrical conductors carrying electric current. \"Amperage\" is the strength of a current of electricity expressed in amperes.\n</div><div><br></div><div><b>What is an ohm?\n</b></div><div>\"Ohm\" is a unit of an electric circuit that is defined as the electrical resistance between two points of a conductor when a constant potential difference of one volt, applied to these points, produces in the conductor a current of one ampere, the conductor not being the seat of any electromotive  force.\n</div><div>\n</div><div><b>\nWhat is a watt?\n</b></div><div>A \"watt\" is a measure of power.  One watt (W) is the rate at which work is done when one ampere (A) of current flows through an electrical potential difference of one volt (V).  \n</div><div><br></div><div>Simple way to understand……\n</div><div>Watts = Amps x Volts\n</div><div>Volt = Watts / Amps\n</div><div>Amps = Watts / Volts\n</div><div><br></div><div><br></div><div><b>Fuses and Circuit Breakers\n</b></div><div>Fuses and Circuit Breakers both serve the same purpose – which is to protect electrical circuits by preventing overloads that can cause fires. They both interrupt the flow of electricity, but in very different ways from each other. \n</div><div><br></div><div><b>Fuses\n</b></div><div>Fuses come in different types – for both residential and commercial use. The most common type is made from a metal wire or a filament that is enclosed in a glass or ceramic and metal casing. In residential homes, the fuse is usually plugged into a central fuse box, where the building’s wiring passes through. When electricity flows, the fuse will permit the power to pass unobstructed across the filament between circuits. If overloads occur, the filament melts and stops the flow of electricity.\n</div><div><br></div><div><b>Circuit Breakers\n</b></div><div>Circuit breakers on the other hand, have internal switch mechanisms that can be tripped by an unsafe surge of electricity.\n<b>&nbsp;</b><span style=\"font-size: 1rem;\">Circuit Breakers have two different ways of working – the first is through the use of an electromagnet and the other is through the use of a bi-metal strip. In both instances, when turned on, the breaker allows electrical current to pass from a bottom to an upper terminal across the strip. Once the current reaches any unsafe levels, the magnetic force of the strip becomes strong enough to throw a metal lever in the switch mechanism, breaking the current. The other option that can happen is that the metal strip can bend, throwing the switch and breaking the connection.&nbsp;</span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div><span style=\"font-size: 1rem;\"><b>Advantage &amp; Disadvantage\n</b></span></div><div><span style=\"font-size: 1rem;\">* Fuse is a less expensive device to protect from </span>over current<span style=\"font-size: 1rem;\">. It reacts quicker than the circuit breakers, and it as a hope that it won’t cause more failure than the breakers because of it as less moving parts. Whereas in circuit breakers if the inner working parts have some faulty, the damage to the electrical appliances will be more because they react slower than the fuse.\n</span></div><div><span style=\"font-size: 1rem;\"> \n</span></div><div><span style=\"font-size: 1rem;\">* One must be careful when replacing the fuse. If you install a 30amp fuse on a 20amp circuit, it ultimately leads to cause an electric fire.\n</span></div><div><span style=\"font-size: 1rem;\"> \n</span></div><div><span style=\"font-size: 1rem;\">* Keep on replacing melted fuses can become more expensive but, in circuit breakers, you need to flip the switch.\n</span></div><div><span style=\"font-size: 1rem;\"> \n</span></div><div><span style=\"font-size: 1rem;\">* Installation of a circuit breaker is complicated and expensive and also the maintenance cost is high but in a long-term, it saves a lot of money.\n</span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div><span style=\"font-size: 1rem;\"><b>The Difference Between Fuse and Circuit Breaker\n</b></span></div><div><span style=\"font-size: 1rem;\">* Fuse works on the principle of electrical and thermal properties of the conducting materials whereas the Circuit breaker works on the Electromagnetism and switching principle.\n</span></div><div><span style=\"font-size: 1rem;\">\n</span></div><div><span style=\"font-size: 1rem;\">* Fuses once used cannot be reused again, but the Circuit breaker can be reused. Hence, there is no need to change the circuit breaker after any fault takes place and the coil is tripped.\n</span></div><div><span style=\"font-size: 1rem;\">\n</span></div><div><span style=\"font-size: 1rem;\">* Fuse cannot be used as an ON/OFF switch whereas Circuit Breaker can be used as an ON/OFF switch.\n</span></div><div><span style=\"font-size: 1rem;\">\n</span></div><div><span style=\"font-size: 1rem;\">* Fuses are independent of ambient temperature, but Circuit Breaker not require any ambient temperature.\n</span></div><div><span style=\"font-size: 1rem;\">\n</span></div><div><span style=\"font-size: 1rem;\">* The Fuse provides protection against only power overloads whereas Circuit Breaker provides protection for both power overloads and short circuits.\n</span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div><span style=\"font-size: 1rem;\">* Breaking capacity of the fuse is low as compared to that of a Circuit Breaker.\n</span></div><div><span style=\"font-size: 1rem;\">\n</span></div><div><span style=\"font-size: 1rem;\">* Operating time of fuse is very less about 0.002 second, whereas Operating time of a Circuit Breaker is comparatively more than that of the fuse. It is about 0.02 – 0.05 second.\n</span></div><div><span style=\"font-size: 1rem;\">\n</span></div><div><span style=\"font-size: 1rem;\">* Mode of operation of Fuse is completely automatic, but Circuit Breakers can be operated manually as well as automatically with the help of a relay system.\n</span></div><div><span style=\"font-size: 1rem;\">\n</span></div><div><span style=\"font-size: 1rem;\">* The cost of the fuse is low, whereas Circuit Breakers are more costly.\n</span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div><span style=\"font-size: 1rem;\">\n</span></div><div><span style=\"font-size: 1rem;\"><b>Voltage drop </b>\n</span></div><div><span style=\"font-size: 1rem;\">A voltage drop in an electrical circuit normally occurs when a current passes through the cable. It is related to the resistance or impedance to current flow with passive elements in the circuits including cables, contacts and connectors affecting the level of voltage drop. The longer the circuit or length of cable the greater the voltage loss. The impact of a voltage drop can cause problems such as motors running slowly, heaters not heating to full potential, lights being dimmed. To compensate for voltage drop larger cross-sectional sized cables may be used which offer less resistance / impedance to current flow.\n</span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div><span style=\"font-size: 1rem;\">V=IR\n</span></div><div><span style=\"font-size: 1rem;\">\n</span></div><div><span style=\"font-size: 1rem;\">Ohms Law: V = I R\n</span></div><div><span style=\"font-size: 1rem;\"> \n</span></div><div><span style=\"font-size: 1rem;\">* Ohm’s Law (I = V/R) says: \n</span></div><div><span style=\"font-size: 1rem;\">* The current (I) through a wire or electrical resistor is \n</span></div><div><span style=\"font-size: 1rem;\">* proportional to the potential difference V across the two ends, and \n</span></div><div><span style=\"font-size: 1rem;\">* inversely proportional to its resistance R. \n</span></div><div><span style=\"font-size: 1rem;\">* Resistance (R) depends on Surface\n</span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div><b><span style=\"font-size: 1rem;\">Single- phase &amp; three- phase \n</span><span style=\"font-size: 1rem;\">electric power&nbsp;&nbsp;</span></b></div><div><span style=\"font-size: 1rem;\">* single-phase electric power is the distribution of alternating current electric power using a system in which all the voltages of the supply vary in unison. Single-phase distribution is used when loads are mostly lighting and heating, with few large electric motors. A single-phase supply connected to an alternating current electric motor does not produce a rotating magnetic field; single-phase motors need additional circuits for starting (capacitor start motor), and such motors are uncommon above 10 kW in rating.\n</span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div><span style=\"font-size: 1rem;\">* Three-phase electric power systems have at least three conductors carrying alternating current voltages that are offset in time by one-third of the period. A wye system allows the use of two different voltages from all three phases, such as a 230/400 V system which provides 230 V between the neutral (centre hub) and any one of the phases, and 400 V across any two phases. \n</span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div><span style=\"font-size: 1rem;\"><b>Three Phase Supply Benefits\n</b></span></div><div><span style=\"font-size: 1rem;\">Copper Utilization Reduction\n</span></div><div><span style=\"font-size: 1rem;\">Lessening of Security Risks for Employees\n</span></div><div><span style=\"font-size: 1rem;\">Labour Treatment Costs\n</span></div><div><span style=\"font-size: 1rem;\">The efficiency of the Conductor is Greater\n</span></div><div><span style=\"font-size: 1rem;\">Facility to Run High Power Loads\n</span></div><div><span style=\"font-size: 1rem;\">\n</span></div><div><span style=\"font-size: 1rem;\"><b>Single Phase Supply Benefits\n</b></span></div><div><span style=\"font-size: 1rem;\">The benefits of choosing a single phase supply include the following.\n</span></div><div><span style=\"font-size: 1rem;\">The design is less complex\n</span></div><div><span style=\"font-size: 1rem;\">Design cost is less\n</span></div><div><span style=\"font-size: 1rem;\">Most efficient AC power supply for up to 1000 watts\n</span></div><div><span style=\"font-size: 1rem;\">Single Phase AC Power Supply is most competent for up to 1000 watts.\n</span></div><div><span style=\"font-size: 1rem;\">Wide-range of application uses\n</span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div><span style=\"font-size: 1rem;\"><b>Key Differences between Single Phase and Three Phase Supplies\n</b></span></div><div><span style=\"font-size: 1rem;\">\n</span></div><div><span style=\"font-size: 1rem;\">* The definition of the single-phase power supply is, the power supplies through a single conductor\n</span></div><div><span style=\"font-size: 1rem;\">* The definition of the three-phase power supply is, the power flows through three conductors.\n</span></div><div><span style=\"font-size: 1rem;\">* The single-phase power supply has one distinct wave cycle whereas; three phase has three distinct wave cycles.\n</span></div><div><span style=\"font-size: 1rem;\">* Single phase requires the single wire to connect the circuit whereas; 3-phase needs 3-wires.\n</span></div><div><span style=\"font-size: 1rem;\">* The voltage of the single phase is 230V, whereas three phase voltage is 415V.\n</span></div><div><span style=\"font-size: 1rem;\">* The phase name of the single phase is split phase, whereas three phase has no other name.\n</span></div><div><span style=\"font-size: 1rem;\">* The capacity of power transfer in the single phase is minimum, whereas three phase has the maximum.\n</span></div><div><span style=\"font-size: 1rem;\">* The connection of single phase is simple whereas in 3-phase is complicated.\n</span></div><div><span style=\"font-size: 1rem;\">* The power failure happens in a single phase, but not occurs in three phase.\n</span></div><div><span style=\"font-size: 1rem;\">* The loss in single phase is maximum whereas in three phase is minimum.\n</span></div><div><span style=\"font-size: 1rem;\">* The single-phase efficiency is less whereas in three phase is high.\n</span></div><div><span style=\"font-size: 1rem;\">* The single-phase is inexpensive whereas the 3-phase is expensive.\n</span></div><div><span style=\"font-size: 1rem;\">* The single-phase AC power supply is utilized for home appliances and three phase power supply is used in huge industries to run heavy loads.\n</span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div><span style=\"font-size: 1rem;\"><b>\nAC &amp; DC System\n</b></span></div><div><span style=\"font-size: 1rem;\">There are two systems of electric generation and supply,\n</span></div><div><span style=\"font-size: 1rem;\">1. Direct current or DC.\n</span></div><div><span style=\"font-size: 1rem;\">2. Alternating current or AC.\n</span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div><span style=\"font-size: 1rem;\"><b>Direct Current:</b> it is the kind of electric current that may or may not change the magnitude but the direction of the current will never change.\n</span></div><div><span style=\"font-size: 1rem;\">E.g. Cells, Batteries and DC Generator.\n</span></div><div><span style=\"font-size: 1rem;\">\n</span></div><div><span style=\"font-size: 1rem;\"><b>Alternating Current:</b>&nbsp; it is the kind of electric current, which not only changes its magnitude but also its sign as time passes, in a definite manner.\n</span></div><div><span style=\"font-size: 1rem;\">This is the current that is supplied by Power station for domestic and commercial use.\n&nbsp;</span></div><div><br></div><div><br></div></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-im",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sgu5Zmu4WV",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "FM_unit_1.1_2.html": {
+      "settings": {
+        "meta_descr": "Site Generator Description",
+        "title": "FM_unit_1.1_2",
+        "order": 45
+      },
+      "components": [
+        {
+          "_name": "design-block",
+          "_styles": {
+            "p": {
+              "color": "#ecf0f1",
+              "line-height": "28px",
+              "font-size": "15px",
+              "padding-top": "50px"
+            },
+            "DIV": {
+              "color": "#ffffff"
+            },
+            "H10": {
+              "color": "#767676"
+            },
+            ".hidden": {
+              "display": "none"
+            },
+            ".sidebar": {
+              "z-index": "1001",
+              "background-color": "@bgcolormenu",
+              "opacity": "@Opacitybarmenu",
+              "position": "fixed",
+              "overflow-x": "auto",
+              "transition": "width 0.2s ease"
+            },
+            ".sidebar nav": {
+              "height": "100%"
+            },
+            ".sidebar .sidebar__nav": {
+              "display": "flex",
+              "height": "100%",
+              "list-style": "none",
+              "margin-top": "(@paddingTopmenu * 1px)",
+              "margin-right": "0px",
+              "margin-bottom": "0px",
+              "margin-left": "0px",
+              "padding": "0"
+            },
+            ".sidebar .sidebar__nav .sidebar__nav__link": {
+              "align-items": "center",
+              "color": "@bgcolormenu2",
+              "display": "flex",
+              "padding-left": "20px",
+              "text-decoration": "none",
+              "transition": "color 0.2s ease, background-color 0.2s ease"
+            },
+            ".sidebar .sidebar__nav .sidebar__nav__link:hover": {
+              "background-color": "@bgcolormenu1",
+              "color": "@bgcolormenu3"
+            },
+            ".sidebar .sidebar__nav .sidebar__nav__text": {
+              "display": "none",
+              "margin-left": "10px",
+              "margin-right": "auto",
+              "white-space": "nowrap"
+            },
+            ".sidebar .sidebar__nav i": {
+              "align-items": "center",
+              "display": "flex",
+              "justify-content": "center"
+            },
+            "@media (max-width: 572px)": {
+              ".sidebar": {
+                "bottom": "0",
+                "width": "100%"
+              },
+              ".sidebar .sidebar__nav": {
+                "justify-content": "space-around"
+              },
+              ".sidebar .sidebar__nav .sidebar__nav__link": {
+                "height": "100%",
+                "padding": "0.75em"
+              },
+              ".sidebar .sidebar__nav i": {
+                "font-size": "2rem"
+              }
+            },
+            "@media (min-width: 572px)": {
+              ".sidebar": {
+                "height": "100vh",
+                "left": "0",
+                "width": "var(--sidebar-width)"
+              },
+              ".sidebar:hover": {
+                "width": "(@widthsize * 1rem)",
+                "opacity": "@OpacitybarmenuHover"
+              },
+              ".sidebar .sidebar__nav": {
+                "flex-direction": "column"
+              },
+              "& when (@lastchild) and (@paddingTopmenu = 0)": {
+                ".sidebar .sidebar__nav li:last-child": {
+                  "margin-top": "auto"
+                }
+              },
+              ".sidebar .sidebar__nav .sidebar__nav__link": {
+                "padding": "1em"
+              },
+              ".sidebar:hover .sidebar__nav .sidebar__nav__text": {
+                "display": "inline"
+              },
+              ".sidebar .sidebar__nav i": {
+                "font-size": "2.5rem"
+              }
+            },
+            "@media (max-height: 434px)": {
+              ".sidebar": {
+                "overflow-y": "scroll"
+              }
+            },
+            ":root": {
+              "--sidebar-width": "4.5em"
+            },
+            ".menu i.large.icon, .menu i.large.basic.icon": {
+              "vertical-align": "baseline"
+            }
+          },
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"_customHTML\">\n \n  \n    <mbr-parameters>\n<hr><header>Menu Configuration</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTopmenu\" min=\"0\" max=\"200\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Width  Hover\" name=\"widthsize\" min=\"14\" max=\"50\" step=\"1\" value=\"14\">\n      <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n      <input type=\"checkbox\" title=\"Brand Name\" name=\"showName\">\n         <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"2\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n         <input type=\"range\" title=\"Icon Size\" inline name=\"iconSize\" min=\"30\" max=\"60\" step=\"1\" value=\"30\">      \n      <input type=\"range\" inline title=\"Items Count\" name=\"iconsCount\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">  \n        <input type=\"color\" title=\"Bar Color\" name=\"bgcolormenu\" value=\"#140735\">\n             <input type=\"range\" title=\"Opacity\" inline name=\"Opacitybarmenu\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\"> \n                   <input type=\"range\" title=\"Opacity Hover\" inline name=\"OpacitybarmenuHover\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\">  \n        <input type=\"color\" title=\"Hover Color\" name=\"bgcolormenu1\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Icon Color\" name=\"bgcolormenu2\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Icon Hover Color\" name=\"bgcolormenu3\" value=\"#223577\">\n        <input type=\"range\" inline title=\"Items Count\" name=\"iconsCount\" min=\"1\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Icon at Bottom\" name=\"lastchild\" condition=\"paddingTopmenu==0\" checked>\n\n\n    </mbr-parameters> \n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<aside class=\"sidebar\">\n\t\t\t<nav>\n\t\t\t\t<ul class=\"sidebar__nav\">\n                         \n         \n \t\t\t\t\t<li mbr-if=\"showLogo\">\n\t\t\t\t\t\t<a href=\"http://www.google.be\" class=\"sidebar__nav__link\">\n\t\t\t\t         <span class=\"sidebar__nav__text\"> <img src=\"https://www.unsitepourtous.be/mobi/yourlogo.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title></span>\n                          </a>\n\t\t\t\t\t</li>\n                   \t<li mbr-if=\"showName\">\n\t\t\t\t\t\t<a href=\"http://www.google.be\" class=\"sidebar__nav__link\">\n                          <span class=\"sidebar__nav__text\" mbr-text>YOUR BRAND</span>\n                          </a>\n\t\t\t\t\t</li>\n                  \t<li>\n\t\t\t\t\t\t<a href=\"1_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-user fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>1st Year</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 1\">\n\t\t\t\t\t\t<a href=\"2_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-user-friends fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>2nd Year</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 2\">\n\t\t\t\t\t\t<a href=\"3_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-users fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>3rd Year</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t<li mbr-if=\"iconsCount > 3\">\n\t\t\t\t\t\t<a href=\"Assign.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-clipboard-list fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Assignments</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 4\">\n\t\t\t\t\t\t<a href=\"Links.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-passport fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Links</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t<li mbr-if=\"iconsCount > 5\">\n\t\t\t\t\t\t<a href=\"more_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-ellipsis-h fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>More</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t\t\t\t\t<li mbr-if=\"iconsCount > 6\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-question\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 7</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t\t\t\t\t<li mbr-if=\"iconsCount > 7\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-github\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 8</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 8\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-setting3\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 9</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t\t\t\t\t<li mbr-if=\"iconsCount > 9\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-rocket\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 10</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\n\t\t\t\t</ul>\n\t\t\t</nav>\n\t\t</aside>\n\n <div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <h10> <br><br><br><br><br><br>Simply Left Menu<br><br>\n        Click the \"gear\" icon to change the layout of the Simply Left Menu bar. This text will be removed on preview/publish.<br><br><br><br><br><br></h10>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sgu6wVWUqG",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "design-block-in"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            "H2": {
+              "color": "#f9f295"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2c244f\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -1\n</b><div><b>WATER - WASTE-TRANSPORT SYSTEM &amp; ENERGY MANAGEMENT\n</b></div></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sgu6wXLlWA",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-io"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2c244f\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><div><b>Building Transport System\n</b></div><div><br></div><div>Most multi storied hotels have many floors above the ground floor and also  one/two floors below the ground floor.\n&nbsp;<span style=\"font-size: 1rem;\">Hence appropriate and efficient building transport systems are not only important but necessary also for operation.</span><span style=\"font-size: 1rem;\">The systems should be a mix of manual and automatic operations.&nbsp;</span></div><div><br></div><div>There are two types of building transport system namely  Vertical Transport System and Horizontal Transport System.\n</div><div><b><br></b></div><div><b>A. Vertical Transport System\n</b></div><div>\n</div><div>1. Stairs\n</div><div>2. Elevators / Lifts\n</div><div>3. Escalators (Moving Stairs)\n</div><div>4. Gravity Chutes (for goods)</div><div><br></div><div>\n</div><div>\n</div><div><b><i>Stairs\n</i></b></div><div>This is the most common and essential for vertical movement of people and goods.&nbsp;<span style=\"font-size: 1rem;\">It is also mandatory as it is an escape route in case of fire in buildings.&nbsp;</span><span style=\"font-size: 1rem;\">In case of power failure, lifts do not operate and hence stair case is the only alternative for vertical movement.&nbsp;</span><span style=\"font-size: 1rem;\">It must be fire proof so that guests can safely exit to upper and lower building floors.&nbsp;</span><span style=\"font-size: 1rem;\">Provision of hand rails and non-slip steps are recommended for safety purpose.</span></div><div>\n</div><div><b><i>Elevators\n</i></b></div><div>An elevator is a transportation device used to transport people and goods vertically.&nbsp;<span style=\"font-size: 1rem;\">Elevators are generally automatic safety units for up and down transport purpose.&nbsp;</span><span style=\"font-size: 1rem;\">It consists of a platform travelling in vertical guides in a shaft with hoisting and lowering mechanism and a source of power.&nbsp;</span><span style=\"font-size: 1rem;\">The enclosure moving up and down in the guides is known as car.</span></div><div>There are two types of lift systems.\n</div><div>\n</div><div><b><i>* Cable elevators</i></b> – They are more common because they are fast, smooth and quite.\n</div><div>\n</div><div><b>* Hydraulic elevators -</b> are elevators which are powered by a piston that travels inside a cylinder. An electric motor pumps hydraulic oil into the cylinder to move the piston. The piston smoothly lifts the elevator cab/car. They are used when the number of floors to be serviced is less.&nbsp;<span style=\"font-size: 1rem;\">The elevators require regular inspection and maintenance and generally have a life of 20 years.</span></div><div>\n</div><div><b><i>Escalators\n</i></b></div><div>The term escalator is a combination of elevator and “scala” the latin word for steps.&nbsp;<span style=\"font-size: 1rem;\">Escalators are the moving step type lifts operating at constant speed between two levels in an inclined course for moving large number of people in a short time.&nbsp;</span><span style=\"font-size: 1rem;\">It consists of a staircase whose steps move up and down on tracks which keep them horizontal.&nbsp;</span><span style=\"font-size: 1rem;\">Most escalators also have a moving handrail which approximately keeps pace with the movement of the steps.&nbsp;</span><span style=\"font-size: 1rem;\">The direction of movement (up and down) can be permanently the same or can be controlled by operators according to the requirement.&nbsp;</span><span style=\"font-size: 1rem;\">Generally two units are required side-by-side at each level, one moving upward and the other downward.</span></div><div>\n</div><div>\n</div><div><b><i>Gravity Chutes\n</i></b></div><div>Gravity chutes are used by hotels for transporting soiled linen, garbage and waste from different floors of the hotel to an outlet point (generally kept on the ground floor).&nbsp;<span style=\"font-size: 1rem;\">It is an efficient system as minimum power is involved in operating it.&nbsp;</span><span style=\"font-size: 1rem;\">Gravity chutes save workers motion, time and increase their productivity.</span></div><div>\n</div><div><br></div><div><br></div><div><b>B. Horizontal Transport System\n</b></div><div>\n</div><div>1. Conveyor belts (moving sidewalk, moving walk way or travellator)\n</div><div>2. Electric cars\n</div><div>3. Manual trolley for transportation of luggage.</div><div><br></div><div>\n</div><div>\n</div><div><b><i>Travellators (Moving pavements)\n</i></b></div><div>Travellators also known as horizontal moving sidewalks, moving walkways is a slow speed conveyor belt to transport people, they can walk along or stand on it.\n</div><div>They are often installed in pairs, for movement in opposite direction.&nbsp;<span style=\"font-size: 1rem;\">Travellators may be used when there is substantial distance between the hotel entry point and the reception point.</span></div><div>\n</div><div><b><i>Electric Cars\n</i></b></div><div>Electric car is an electrically operated open car with 6 to 8 seats.&nbsp;<span style=\"font-size: 1rem;\">This is an alternative to travellators and particularly very useful for disabled persons.</span></div><div>\n</div><div><b><i>Manual Trolley\n</i></b></div><div>Manual trolley is used for transportation of luggage of guest.</div></div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sgu6wYassm",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-ip"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-section-btn": {
+              "justify-content": "space-between",
+              "display": "flex",
+              "flex-wrap": "wrap"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"2\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"5\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#2c244f\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-secondary\" href=\"FM_unit_1.1_2.1.html\" data-app-placeholder=\"Type Text\">Elevator &amp; Escalator</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "content1-it",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sguflZXTuP",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "FM_unit_1.1_3.html": {
+      "settings": {
+        "meta_descr": "Site Generator Description",
+        "title": "FM_unit_1.1_3",
+        "order": 47
+      },
+      "components": [
+        {
+          "_name": "design-block",
+          "_styles": {
+            "p": {
+              "color": "#ecf0f1",
+              "line-height": "28px",
+              "font-size": "15px",
+              "padding-top": "50px"
+            },
+            "DIV": {
+              "color": "#ffffff"
+            },
+            "H10": {
+              "color": "#767676"
+            },
+            ".hidden": {
+              "display": "none"
+            },
+            ".sidebar": {
+              "z-index": "1001",
+              "background-color": "@bgcolormenu",
+              "opacity": "@Opacitybarmenu",
+              "position": "fixed",
+              "overflow-x": "auto",
+              "transition": "width 0.2s ease"
+            },
+            ".sidebar nav": {
+              "height": "100%"
+            },
+            ".sidebar .sidebar__nav": {
+              "display": "flex",
+              "height": "100%",
+              "list-style": "none",
+              "margin-top": "(@paddingTopmenu * 1px)",
+              "margin-right": "0px",
+              "margin-bottom": "0px",
+              "margin-left": "0px",
+              "padding": "0"
+            },
+            ".sidebar .sidebar__nav .sidebar__nav__link": {
+              "align-items": "center",
+              "color": "@bgcolormenu2",
+              "display": "flex",
+              "padding-left": "20px",
+              "text-decoration": "none",
+              "transition": "color 0.2s ease, background-color 0.2s ease"
+            },
+            ".sidebar .sidebar__nav .sidebar__nav__link:hover": {
+              "background-color": "@bgcolormenu1",
+              "color": "@bgcolormenu3"
+            },
+            ".sidebar .sidebar__nav .sidebar__nav__text": {
+              "display": "none",
+              "margin-left": "10px",
+              "margin-right": "auto",
+              "white-space": "nowrap"
+            },
+            ".sidebar .sidebar__nav i": {
+              "align-items": "center",
+              "display": "flex",
+              "justify-content": "center"
+            },
+            "@media (max-width: 572px)": {
+              ".sidebar": {
+                "bottom": "0",
+                "width": "100%"
+              },
+              ".sidebar .sidebar__nav": {
+                "justify-content": "space-around"
+              },
+              ".sidebar .sidebar__nav .sidebar__nav__link": {
+                "height": "100%",
+                "padding": "0.75em"
+              },
+              ".sidebar .sidebar__nav i": {
+                "font-size": "2rem"
+              }
+            },
+            "@media (min-width: 572px)": {
+              ".sidebar": {
+                "height": "100vh",
+                "left": "0",
+                "width": "var(--sidebar-width)"
+              },
+              ".sidebar:hover": {
+                "width": "(@widthsize * 1rem)",
+                "opacity": "@OpacitybarmenuHover"
+              },
+              ".sidebar .sidebar__nav": {
+                "flex-direction": "column"
+              },
+              "& when (@lastchild) and (@paddingTopmenu = 0)": {
+                ".sidebar .sidebar__nav li:last-child": {
+                  "margin-top": "auto"
+                }
+              },
+              ".sidebar .sidebar__nav .sidebar__nav__link": {
+                "padding": "1em"
+              },
+              ".sidebar:hover .sidebar__nav .sidebar__nav__text": {
+                "display": "inline"
+              },
+              ".sidebar .sidebar__nav i": {
+                "font-size": "2.5rem"
+              }
+            },
+            "@media (max-height: 434px)": {
+              ".sidebar": {
+                "overflow-y": "scroll"
+              }
+            },
+            ":root": {
+              "--sidebar-width": "4.5em"
+            },
+            ".menu i.large.icon, .menu i.large.basic.icon": {
+              "vertical-align": "baseline"
+            }
+          },
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"_customHTML\">\n \n  \n    <mbr-parameters>\n<hr><header>Menu Configuration</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTopmenu\" min=\"0\" max=\"200\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Width  Hover\" name=\"widthsize\" min=\"14\" max=\"50\" step=\"1\" value=\"14\">\n      <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n      <input type=\"checkbox\" title=\"Brand Name\" name=\"showName\">\n         <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"2\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n         <input type=\"range\" title=\"Icon Size\" inline name=\"iconSize\" min=\"30\" max=\"60\" step=\"1\" value=\"30\">      \n      <input type=\"range\" inline title=\"Items Count\" name=\"iconsCount\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">  \n        <input type=\"color\" title=\"Bar Color\" name=\"bgcolormenu\" value=\"#140735\">\n             <input type=\"range\" title=\"Opacity\" inline name=\"Opacitybarmenu\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\"> \n                   <input type=\"range\" title=\"Opacity Hover\" inline name=\"OpacitybarmenuHover\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\">  \n        <input type=\"color\" title=\"Hover Color\" name=\"bgcolormenu1\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Icon Color\" name=\"bgcolormenu2\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Icon Hover Color\" name=\"bgcolormenu3\" value=\"#223577\">\n        <input type=\"range\" inline title=\"Items Count\" name=\"iconsCount\" min=\"1\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Icon at Bottom\" name=\"lastchild\" condition=\"paddingTopmenu==0\" checked>\n\n\n    </mbr-parameters> \n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<aside class=\"sidebar\">\n\t\t\t<nav>\n\t\t\t\t<ul class=\"sidebar__nav\">\n                         \n         \n \t\t\t\t\t<li mbr-if=\"showLogo\">\n\t\t\t\t\t\t<a href=\"http://www.google.be\" class=\"sidebar__nav__link\">\n\t\t\t\t         <span class=\"sidebar__nav__text\"> <img src=\"https://www.unsitepourtous.be/mobi/yourlogo.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title></span>\n                          </a>\n\t\t\t\t\t</li>\n                   \t<li mbr-if=\"showName\">\n\t\t\t\t\t\t<a href=\"http://www.google.be\" class=\"sidebar__nav__link\">\n                          <span class=\"sidebar__nav__text\" mbr-text>YOUR BRAND</span>\n                          </a>\n\t\t\t\t\t</li>\n                  \t<li>\n\t\t\t\t\t\t<a href=\"1_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-user fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>1st Year</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 1\">\n\t\t\t\t\t\t<a href=\"2_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-user-friends fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>2nd Year</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 2\">\n\t\t\t\t\t\t<a href=\"3_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-users fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>3rd Year</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t<li mbr-if=\"iconsCount > 3\">\n\t\t\t\t\t\t<a href=\"Assign.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-clipboard-list fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Assignments</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 4\">\n\t\t\t\t\t\t<a href=\"Links.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-passport fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Links</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t<li mbr-if=\"iconsCount > 5\">\n\t\t\t\t\t\t<a href=\"more_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-ellipsis-h fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>More</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t\t\t\t\t<li mbr-if=\"iconsCount > 6\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-question\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 7</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t\t\t\t\t<li mbr-if=\"iconsCount > 7\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-github\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 8</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 8\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-setting3\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 9</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t\t\t\t\t<li mbr-if=\"iconsCount > 9\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-rocket\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 10</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\n\t\t\t\t</ul>\n\t\t\t</nav>\n\t\t</aside>\n\n <div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <h10> <br><br><br><br><br><br>Simply Left Menu<br><br>\n        Click the \"gear\" icon to change the layout of the Simply Left Menu bar. This text will be removed on preview/publish.<br><br><br><br><br><br></h10>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sgu6DFrCxm",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "design-block-iq"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            "H2": {
+              "color": "#f9f295"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2c244f\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -1\n</b><div><b>WATER - WASTE-TRANSPORT SYSTEM &amp; ENERGY MANAGEMENT\n</b></div></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sgu6DGpiSq",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-ir"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2c244f\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><div><b>Energy conservation\n</b></div><div><br></div><div>Energy conservation refers to reducing energy through using less of an energy service. Energy conservation differs from efficient energy use, which refers to using less energy for a constant service\n.</div><div><br></div><div><b>Ways to conserve energy &amp; Cost Control\n</b></div><div><b><br></b></div><div>1. Adjust your day-to-day behaviors\n</div><div>2. Replace your light bulbs\n</div><div>3. Use smart power strips\n</div><div>4. Install a programmable or smart thermostat\n</div><div>5. Purchase energy efficient appliances\n</div><div>6. Reduce your water heating expenses\n</div><div>7. Upgrade HVAC system\n</div><div>8. Continuously monitor\n</div><div>9. Involve employees\n</div><div>10. Rate Analysis\n</div><div>11. Verify results\n</div><div>12. Conduct follow-up energy audits periodically\n</div><div><b><br></b></div><div><b>\n</b></div><div><b><br></b></div><div><br></div><div><br></div></div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sgu6DGKNtx",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-is"
+        }
+      ]
+    },
+    "FM_unit_1.1_2.1.html": {
+      "settings": {
+        "meta_descr": "Site Generator Description",
+        "title": "FM_unit_1.1_2.1",
+        "order": 46
+      },
+      "components": [
+        {
+          "_name": "design-block",
+          "_styles": {
+            "p": {
+              "color": "#ecf0f1",
+              "line-height": "28px",
+              "font-size": "15px",
+              "padding-top": "50px"
+            },
+            "DIV": {
+              "color": "#ffffff"
+            },
+            "H10": {
+              "color": "#767676"
+            },
+            ".hidden": {
+              "display": "none"
+            },
+            ".sidebar": {
+              "z-index": "1001",
+              "background-color": "@bgcolormenu",
+              "opacity": "@Opacitybarmenu",
+              "position": "fixed",
+              "overflow-x": "auto",
+              "transition": "width 0.2s ease"
+            },
+            ".sidebar nav": {
+              "height": "100%"
+            },
+            ".sidebar .sidebar__nav": {
+              "display": "flex",
+              "height": "100%",
+              "list-style": "none",
+              "margin-top": "(@paddingTopmenu * 1px)",
+              "margin-right": "0px",
+              "margin-bottom": "0px",
+              "margin-left": "0px",
+              "padding": "0"
+            },
+            ".sidebar .sidebar__nav .sidebar__nav__link": {
+              "align-items": "center",
+              "color": "@bgcolormenu2",
+              "display": "flex",
+              "padding-left": "20px",
+              "text-decoration": "none",
+              "transition": "color 0.2s ease, background-color 0.2s ease"
+            },
+            ".sidebar .sidebar__nav .sidebar__nav__link:hover": {
+              "background-color": "@bgcolormenu1",
+              "color": "@bgcolormenu3"
+            },
+            ".sidebar .sidebar__nav .sidebar__nav__text": {
+              "display": "none",
+              "margin-left": "10px",
+              "margin-right": "auto",
+              "white-space": "nowrap"
+            },
+            ".sidebar .sidebar__nav i": {
+              "align-items": "center",
+              "display": "flex",
+              "justify-content": "center"
+            },
+            "@media (max-width: 572px)": {
+              ".sidebar": {
+                "bottom": "0",
+                "width": "100%"
+              },
+              ".sidebar .sidebar__nav": {
+                "justify-content": "space-around"
+              },
+              ".sidebar .sidebar__nav .sidebar__nav__link": {
+                "height": "100%",
+                "padding": "0.75em"
+              },
+              ".sidebar .sidebar__nav i": {
+                "font-size": "2rem"
+              }
+            },
+            "@media (min-width: 572px)": {
+              ".sidebar": {
+                "height": "100vh",
+                "left": "0",
+                "width": "var(--sidebar-width)"
+              },
+              ".sidebar:hover": {
+                "width": "(@widthsize * 1rem)",
+                "opacity": "@OpacitybarmenuHover"
+              },
+              ".sidebar .sidebar__nav": {
+                "flex-direction": "column"
+              },
+              "& when (@lastchild) and (@paddingTopmenu = 0)": {
+                ".sidebar .sidebar__nav li:last-child": {
+                  "margin-top": "auto"
+                }
+              },
+              ".sidebar .sidebar__nav .sidebar__nav__link": {
+                "padding": "1em"
+              },
+              ".sidebar:hover .sidebar__nav .sidebar__nav__text": {
+                "display": "inline"
+              },
+              ".sidebar .sidebar__nav i": {
+                "font-size": "2.5rem"
+              }
+            },
+            "@media (max-height: 434px)": {
+              ".sidebar": {
+                "overflow-y": "scroll"
+              }
+            },
+            ":root": {
+              "--sidebar-width": "4.5em"
+            },
+            ".menu i.large.icon, .menu i.large.basic.icon": {
+              "vertical-align": "baseline"
+            }
+          },
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"_customHTML\">\n \n  \n    <mbr-parameters>\n<hr><header>Menu Configuration</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTopmenu\" min=\"0\" max=\"200\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Width  Hover\" name=\"widthsize\" min=\"14\" max=\"50\" step=\"1\" value=\"14\">\n      <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n      <input type=\"checkbox\" title=\"Brand Name\" name=\"showName\">\n         <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"2\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n         <input type=\"range\" title=\"Icon Size\" inline name=\"iconSize\" min=\"30\" max=\"60\" step=\"1\" value=\"30\">      \n      <input type=\"range\" inline title=\"Items Count\" name=\"iconsCount\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">  \n        <input type=\"color\" title=\"Bar Color\" name=\"bgcolormenu\" value=\"#140735\">\n             <input type=\"range\" title=\"Opacity\" inline name=\"Opacitybarmenu\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\"> \n                   <input type=\"range\" title=\"Opacity Hover\" inline name=\"OpacitybarmenuHover\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\">  \n        <input type=\"color\" title=\"Hover Color\" name=\"bgcolormenu1\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Icon Color\" name=\"bgcolormenu2\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Icon Hover Color\" name=\"bgcolormenu3\" value=\"#223577\">\n        <input type=\"range\" inline title=\"Items Count\" name=\"iconsCount\" min=\"1\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Icon at Bottom\" name=\"lastchild\" condition=\"paddingTopmenu==0\" checked>\n\n\n    </mbr-parameters> \n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<aside class=\"sidebar\">\n\t\t\t<nav>\n\t\t\t\t<ul class=\"sidebar__nav\">\n                         \n         \n \t\t\t\t\t<li mbr-if=\"showLogo\">\n\t\t\t\t\t\t<a href=\"http://www.google.be\" class=\"sidebar__nav__link\">\n\t\t\t\t         <span class=\"sidebar__nav__text\"> <img src=\"https://www.unsitepourtous.be/mobi/yourlogo.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title></span>\n                          </a>\n\t\t\t\t\t</li>\n                   \t<li mbr-if=\"showName\">\n\t\t\t\t\t\t<a href=\"http://www.google.be\" class=\"sidebar__nav__link\">\n                          <span class=\"sidebar__nav__text\" mbr-text>YOUR BRAND</span>\n                          </a>\n\t\t\t\t\t</li>\n                  \t<li>\n\t\t\t\t\t\t<a href=\"1_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-user fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>1st Year</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 1\">\n\t\t\t\t\t\t<a href=\"2_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-user-friends fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>2nd Year</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 2\">\n\t\t\t\t\t\t<a href=\"3_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-users fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>3rd Year</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t<li mbr-if=\"iconsCount > 3\">\n\t\t\t\t\t\t<a href=\"Assign.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-clipboard-list fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Assignments</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 4\">\n\t\t\t\t\t\t<a href=\"Links.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-passport fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Links</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t<li mbr-if=\"iconsCount > 5\">\n\t\t\t\t\t\t<a href=\"more_land.html\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont fa-ellipsis-h fas fa-fw\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>More</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t\t\t\t\t<li mbr-if=\"iconsCount > 6\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-question\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 7</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t\t\t\t\t<li mbr-if=\"iconsCount > 7\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-github\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 8</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-if=\"iconsCount > 8\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-setting3\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 9</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n                  \t\t\t\t\t<li mbr-if=\"iconsCount > 9\">\n\t\t\t\t\t\t<a href=\"#\" class=\"sidebar__nav__link\">\n\t\t\t\t\t\t\t<i mbr-icon class=\"mbr-iconfont mbri-rocket\" style=\"font-size: {{iconSize}}px;\"></i>\n                          \t<span class=\"sidebar__nav__text\" mbr-text>Page 10</span>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\n\t\t\t\t</ul>\n\t\t\t</nav>\n\t\t</aside>\n\n <div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <h10> <br><br><br><br><br><br>Simply Left Menu<br><br>\n        Click the \"gear\" icon to change the layout of the Simply Left Menu bar. This text will be removed on preview/publish.<br><br><br><br><br><br></h10>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sgufNSe4qW",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "design-block-iu"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            "H2": {
+              "color": "#f9f295"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2c244f\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -1\n</b><div><b>WATER - WASTE-TRANSPORT SYSTEM &amp; ENERGY MANAGEMENT\n</b></div></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sgufNTwPVr",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-iv"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2c244f\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><div><b>Elevator: Working, Different Types</b></div><div>Nowadays, there are many changes has been occurred in the fields like industry, computer as well as software. They have contributed significant progress in all different sectors. By pushing the switch or button, you call a metal box that transports you from one floor to another with safely. In fact, an elevator is mandatory for a building which has more than four to five floors high. For most of the people, an elevator offer ease as well as convenience, and also makes life easier for physically handicapped persons. This article discusses what is the elevator, how does it work and types.\n</div><div>\n</div><div><b>What is Elevator (Lift)?\n</b></div><div>An elevator can be defined as an electric lift which is used as vertical transportation of goods as well as people among the floors in buildings using bins otherwise silos. As usual, these are activated with the electrical motors that also to drive counterweight system cables for drive transaction such as a hoist, otherwise, pump hydraulic fluid for raising a cylindrical piston such as a jack.\n</div><div><br></div><div><br></div><div><b>How Does a Lift work?\n</b></div><div>The working principle of an elevator or lift is similar to the pulley system. A pulley system is used to draw the water from the well. This pulley system can be designed with a bucket, a rope with a wheel. A bucket is connected to a rope that passes throughout a wheel. This can make it very easy to draw the water from the well. Similarly, present elevators use the same concept. But the main difference between these two are; pulley systems are operated manually whereas an elevator uses sophisticated mechanisms for handling the elevator’s load.\n</div><div>\n</div><div>Basically, an elevator is a metal box in different shapes which is connected to a very tough metal rope. The tough metal rope passes through a sheave on the elevator in the engine room. Here a sheave is like a wheel in pulley system for clutching the metal rope strongly. This system can be operated by a motor. When the switch is turned ON, the motor can be activated when the elevator goes up and down or stops.\n</div><div>\n</div><div>The elevator can be constructed with various elevator Components or elevator parts that mainly include speed controlling system, electric motor, rails, cabin, shaft, doors (manual and automatic), drive unit, buffers, and safety device.\n</div><div> \n</div><div><b>Different Types of Elevator\n</b></div><div>The different types of lifts or elevators include building lift, capsule lift, hydraulic elevator, pneumatic elevator, passenger lift, freight elevator, traction elevator/cable driven, residential elevators, machine room-less elevator, etc.\n</div><div>\n</div><div>1) Hydraulic Elevator\n</div><div>A hydraulic elevator is power-driven by a piston that moves within a cylinder. The piston movement can be done by pumping hydraulic oil to the cylinder. The piston lifts the lift cab easily, and the oil can be controlled by an electrical valve.\n</div><div> \n</div><div>The applications of hydraulic elevators involve in five to six-floor buildings. The operating of these elevators can be done at speeds up to 200 ft or 61 meters for each minute. All the current hydraulic pumps are designed with a mechanical Y-delta starter otherwise solid state contractor. For the power supply of motor as well as building, solid-state starters are superior. Because the winding stay longer as well as there is no voltage drop across the building power supply.\n&nbsp;<span style=\"font-size: 1rem;\">In Y-delta type starter, the motor can be activated by using two contractors on a decreased speed, after that continues with full speed. Older hydraulic elevators now started up suddenly, transmitting mains power at full-blast right into the electric motor. This sets a lot of damage on the motor, which will make it burn out quicker than motors on Solid-State or Y-Delta Contactor starters. The hydraulic elevators are classified into four types such as holed, hole less &amp; roped elevators&nbsp;</span></div><div>\n</div><div>2) Pneumatic Elevator\n</div><div>The pneumatic elevator can be designed with an external cylinder, and the cylinder is a crystal clear self-supporting cylinder. This cylinder includes modular sections to fit effortlessly into one by one. The top of this tube is designed with steel material that ensures tight air shutting by suction valves as well as inlets. A lift car runs within the cylinder, &amp; the head unit on the top cylinder surface consists of valves, controllers, and turbines for controlling the elevator movements.\n</div><div>Pneumatic elevators are very easy to fit, operate as well as maintain when compared with the traditional elevators. These are used in existing homes because of their solid design. The main benefits of using these elevators include solid design &amp; smooth, speed and flexibility, energy efficient and very safe.\n</div><div>\n</div><div>3) Cable Driven or Traction Elevator\n</div><div>The traction elevator or cable driven elevators are the most popular elevators. It consists of steel cables as well as hoisting ropes that run above a pulley which is connected to the motor. This is geared otherwise gearless-traction type elevator. In this kind of elevator, several wire and hoisting cables are connected to the surface of an elevator car with covering around it on sheaves at one end &amp; the other side is connected to a counterweight that travels up &amp; down on its guide rails.\n<span style=\"font-size: 1rem;\">The counterweight is equivalent to the car’s weight and half of the weight of the passenger in the car. This means, throughout the lifting process it needs extra power for the additional passengers in the car; the rest of the load is managed with the weight of the counter. When the control system is connected to the lift, then it drives the motors in a frontward way, and sheave turns around to move the car lift upwards and stops in the preferred floor where the car is controlled by the weight of the counter.&nbsp;</span></div><div>\n</div><div>For the car downstairs movement, overturn occurs during a rotating motor through a control method. For conserving the energy, some types of lift use electric motors with four quadrant operation in the regenerative method. Because of the high rise as well as high-speed capacities, these are applicable in several escalators, lifts, etc.\n</div><div>\n</div><div>4) Capsule Lift\n</div><div>Capsule lift or Elevators are used in prestigious buildings, which can be called as decoration of a building because they improve the building’s beauty as well as carries life into it.\n</div><div>The main features of this elevators mainly include design, and travel comfort is best. The interior design of these lifts is attractive with a large glass panel for viewing. The ultramodern design of these lifts offers a cosmic zone travel experience for the passengers. These lifts are consistent and inexpensive with the least maintenance.\n</div><div>\n</div><div>5) Building Lift\n</div><div>A building lift is a vertical transportation among the floors of the building. These are frequently used in public buildings, complexes, offices, and multistory building. These lifts are important in providing vertical movement, mostly in high buildings, for a wheelchair as well as other non-ambulant building customers. Some type of lifts also is applicable for emigration &amp; firefighting purposes.\n</div><div><br></div><div>6) Passenger Lift\n</div><div>This type of lift has entirely included a lift car that moves vertically in a specially equipped lift shaft. Passengers are traveled between the floors in the building at quick speed. The control systems in the lift frequently designed to offer the most economical sharing of passengers all over the building. These lifts are very space efficient which are used in existing buildings where space is at a best.\n</div><div><br></div><div>The main advantages of using passenger lift give a very comfort traveling among different floors, particularly space efficient, fully fixed shaft, small construction works, and no level loading on the building.\n</div><div>\n</div><div>7) Freight Elevator\n</div><div>In the world of elevators, these lifts are workhorses. These are very useful for transporting materials, goods in warehouses, manufacturing industries, shopping malls, seaports, etc. This type of elevator is separated into classes, to describe their load capacity as well as application. These lifts are strong in nature, and they are specially manufactured by engineers.\n</div><div><br></div><div>The features of this elevator include: the range of loading capacity is from 2500 lbs to 10000 lbs, height of the travel up to 50fts. The benefits of these elevators include; these elevators are designed for commercial as well as industrial applications. The flexible design to hold the application, door designs can be changed, eco-friendly, etc.\n</div><div>\n</div><div>8) Residential Elevators\n</div><div>Residential elevators provide stylish options to the platform as well as stair lifts. These lifts can be effortlessly incorporated in any available home, otherwise incorporated in edifice plans for latest homes. These types of elevators are available in different styles, and these can be installed in your home walls, otherwise included effortlessly to improve your home’s decoration. The main benefits of residential elevators are; they can move you securely among floors even during a power failure. Quick installation and offers you an effortless life.\n</div><div><br></div><div><br></div><div><br></div><div><br></div></div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sgufNTSZo0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-iw"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/traction-lift-diagram-900x1112.jpg\" alt=\"ele\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"pb-5 px-3 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-figure-caption div\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_cid": "sguisG272T",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image2-iz"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2c244f\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><div><b><br></b></div><div><b>B. Escalator Working principle:\n</b></div><div>\n</div><div>1. The core parts of the escalator are two chains, which rotate around two pairs of gears. At the top of the escalator, an electric motor drives the transmission gear to rotate the chain ring. A typical escalator USES a 100 horsepower engine to turn the gears. The engine and chain systems are mounted in trusses, which are metal structures that extend from floor to floor.\n</div><div>2. Unlike the conveyor belt moving a plane, the chain ring moves a set of steps. The most interesting thing about escalators is the way they move. The steps remain level as the chain moves. At the top and bottom of the escalator, the steps fold into a platform. This makes it easier to get up and down the escalator.\n</div><div>3. Each step of the escalator has two sets of wheels, which rotate along two separate tracks. The top gear (wheels near the top of the steps) is connected to a rotating chain and is pulled by a drive gear located at the top of the escalator. The other wheels simply slide along the track behind the first wheels.\n</div><div>4. The two tracks are separated from each other, so that each step can be kept level. At the top and bottom of the escalator, the track is in a horizontal position, flattening the steps. There are a series of grooves inside each step to connect the front and rear steps during the leveling process.\n</div><div>5. Besides rotating the main link, the motor in the escalator can also move the handrails. The armrest is just a rubber conveyor belt that circulates around a series of wheels. The conveyor belt is precisely configured to move at exactly the same speed as the steps, making the rider feel smooth.\n</div><div>6. The escalator system is not capable of lifting people up dozens of floors as elevators do, but it is suitable for providing short distance transportation. This is because of the high load rate of escalators. When the elevator is full, no one else can get on until it reaches the designated floor and returns. On escalators, as long as one person reaches the top, it makes room for others.</div><div><br></div></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-j0",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sguiuFgnTd",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/esclator-1-1006x506.jpg\" alt=\"esc\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"pb-5 px-3 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-figure-caption div\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_cid": "sguhIDXr32",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image2-iy"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2c244f\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><div><br></div><div><br></div><div><br></div><div><br></div></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-j1",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sgujo8Yuya",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     }
