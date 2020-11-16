@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Cantora+One:400&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Acme:400&display=swap);
 
 
@@ -42,7 +41,7 @@ body {
   font-size: 2.4rem;
 }
 .display-7 {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Catamaran', sans-serif;
   font-size: 1rem;
   font-display: swap;
 }
@@ -548,7 +547,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Catamaran', sans-serif;
   font-size: 1rem;
   font-display: swap;
 }
@@ -7826,9 +7825,7 @@ section.lazy-placeholder:after {
   color: #f9f295;
 }
 .cid-sfbLjXK0yJ {
-  padding-top: 15px;
-  padding-bottom: 135px;
-  background-color: #ffffff;
+  background-color: #2c244f;
 }
 .cid-sfbLjXK0yJ P {
   color: #767676;
@@ -10831,6 +10828,18 @@ section.lazy-placeholder:after {
     display: none !important;
   }
 }
+.cid-sgvpQzdYmh {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #2c244f;
+}
+.cid-sgvpQzdYmh .mbr-text,
+.cid-sgvpQzdYmh blockquote {
+  color: #767676;
+}
+.cid-sgvpQzdYmh .mbr-text {
+  color: #ffffff;
+}
 .cid-sgtFvwydNU p {
   color: #ecf0f1;
   line-height: 28px;
@@ -11431,6 +11440,18 @@ section.lazy-placeholder:after {
   .cid-sgtNTuvJw9 .image-block {
     width: 100% !important;
   }
+}
+.cid-sgvpqxdtWH {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #2c244f;
+}
+.cid-sgvpqxdtWH .mbr-text,
+.cid-sgvpqxdtWH blockquote {
+  color: #767676;
+}
+.cid-sgvpqxdtWH .mbr-text {
+  color: #ffffff;
 }
 .cid-sgu4Sc4BvE p {
   color: #ecf0f1;
